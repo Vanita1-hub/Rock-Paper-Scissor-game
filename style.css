@@ -1,0 +1,228 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+}
+.body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+h1{
+    border:2px white solid;
+    background-color: rgb(87, 84, 84);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    color:white;
+    padding:1vmin;
+    border-radius: 2vmin;
+    margin: 1vmin;
+}
+.select{
+    font-size: 2.5vmin;
+    background-color: rgb(87, 84, 84);
+    color:white;
+    padding:1vmin;
+    border-radius: 5vmin;
+    margin: 1vmin;
+}
+.choices
+{
+    height: 24vmin;
+    width:80vmin;
+    background-color: rgb(168, 164, 164);   
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    border-radius: 5vmin;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#rock{
+    background:url(rockleft.png);
+    background-size: cover;
+
+
+}
+#paper{
+    background:url(handleft.png);
+    background-size:100% 100%;
+
+
+}
+#scissor{
+    background:url(scissorleft.png);
+    background-size: 100% 100%;
+
+
+}
+
+.choice
+{
+    height: 20vmin;
+    width:20vmin;
+    border-radius: 1rem;
+     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+     
+}
+.choice:hover{ 
+    cursor:pointer;
+    border:2px solid white;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+      
+}
+/* .rockleft1
+{
+     animation: rotateBox 0.6s linear 3;
+
+}
+.rockright1
+{
+     animation: rotateBoxY 0.6s linear 3;
+}
+@keyframes rotateBoxY {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-20deg);
+    }
+  }
+@keyframes rotateBox {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(20deg);
+    }
+  } */
+
+.score-board
+{
+    padding: 2vmin;
+    border-radius: 2vmin;
+    background-color: rgb(168, 164, 164);   
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    color:white;
+    font-size: 3vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vmin;
+    gap:2vmin;
+}
+.score{
+    color:white;
+    padding:2vmin;
+    width:12vmin;
+    background-color: black;
+    text-align: center;
+    border-radius: 1vmin;
+     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+/* @keyframes rotation {
+    from {
+        transform: translate(-50%, -50%);
+    }
+    to {
+        transform: translate(-50%, -50%) ;
+    }
+} */
+#user-score, #comp-score,#chances
+{
+    font-size: 5vmin;
+    text-align: center;
+    color:white
+
+}
+.msg
+{
+    font-size: 2.5vmin;
+    border:2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: rgb(87, 84, 84);
+    color:white;
+    padding:1vmin;
+    border-radius: 1vmin;
+    margin: 2vmin;
+}
+.game-area
+{
+    height: 28vmin;
+    width:80vmin;
+    border-radius: 1vmin;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:6vmin;
+    margin:3vmin;
+}
+.user
+{
+    height:25vmin;
+    width:30vmin;
+}
+.comp
+{
+    height:25vmin;
+    width:30vmin;
+
+}
+.hide
+{
+    display:none;
+}
+.rockleft
+{
+    height:25vmin;
+    width:30vmin;
+    background: url(rockleft.png);
+    background-size: 100% 100%;
+
+}
+.handleft
+{
+    height:25vmin;
+    width:30vmin;
+    background: url(handleft.png);
+    background-size: 100% 100%;
+}
+.scissorleft
+{
+    height:25vmin;
+    width:30vmin;
+    background: url(scissorleft.png);
+    background-size: 100% 100%;
+}
+.rockright
+{
+    height:25vmin;
+    width:30vmin;
+    background: url(rockright.png);
+    background-size: 100% 100%;
+}
+.handright
+{
+    height:25vmin;
+    width:30vmin;
+    background: url(handright.png);
+    background-size: 100% 100%;
+}
+
+.scissorright
+{
+    height:25vmin;
+    width:30vmin;
+    background: url(scissorright.png);
+    background-size: 100% 100%;
+}
